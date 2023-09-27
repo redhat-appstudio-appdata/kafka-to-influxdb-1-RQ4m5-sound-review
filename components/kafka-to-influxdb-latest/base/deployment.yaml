@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: kafka-to-influxdb-latest
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/rshah-tenant/kafka-to-influxdb-1/kafka-to-influxdb-latest@sha256:a975836cefdb59c205243a514f6154276c389b943924e4245c89a2f70ef4dfb8
         imagePullPolicy: Always
         name: container-image
         ports:
