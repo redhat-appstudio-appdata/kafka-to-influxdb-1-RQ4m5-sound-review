@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: kafka-to-influxdb-latest
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rshah-tenant/kafka-to-influxdb-1/kafka-to-influxdb-latest@sha256:a975836cefdb59c205243a514f6154276c389b943924e4245c89a2f70ef4dfb8
+        name: container-image
+        resources: {}
+status: {}
