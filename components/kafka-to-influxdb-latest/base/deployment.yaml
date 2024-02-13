@@ -10,7 +10,7 @@ metadata:
     app.kubernetes.io/part-of: kafka-to-influxdb-1
   name: kafka-to-influxdb-latest
 spec:
-  replicas: 1
+  replicas: 0
   revisionHistoryLimit: 0
   selector:
     matchLabels:
